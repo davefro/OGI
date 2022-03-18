@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../pliki z odcinkami Miroslawa Zelenta/kurs_css3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "KFC project"
+	}
+}

@@ -1,0 +1,401 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* fonts for website */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 30px 10%;
+}
+
+/*Header, logo and navbar*/
+
+.logo{
+    position:absolute;
+    left: 16px;
+    top: -10px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+/*effects navbar*/
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
+
+.nav_links li a:hover{
+    color:#a9a9a9
+}
+
+/*Image "chicken bucket"*/
+
+.chbucket{
+    width: 100%;
+    height: auto;
+}
+
+/*button and effects*/
+
+.button {
+    text-align: center;
+    padding: 15px 32px;
+  }
+
+button{
+    background-color: #E31D2C;
+    border: none;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+button a{
+    color:white;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+/*Line under Heading1*/
+
+.line{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #dd1c1c;
+    margin-top: 50px;
+    text-underline-offset: 30%;
+    text-decoration-thickness: 7%;
+ }
+
+/*Section*/
+
+.section{
+   display:flex;
+}
+
+/*Image "chicken" next to text*/ 
+
+.chicken{
+   max-width: 100%;
+   width: 50%;
+   height: auto;
+}
+
+/*Heading with text*/
+
+.text{
+    margin-top: 250px;
+}
+
+p{
+    padding:0px 200px 0px 120px;
+}
+
+h2{
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+.button2{
+    padding-left:115px;
+    padding-top: 40px;
+}
+
+/*Image "wow box"*/
+
+.wow_box{
+    width: 100%;
+    height: auto;
+}
+
+.button3{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+    
+/*Section 2 and 2 box with heading, paragraph and buttont*/
+
+.section2{
+    display: flex;
+    text-align: center;
+}
+
+/*Black box*/
+
+.articleL{
+    background: #000000;
+    margin:20px;
+    width: 50%;
+    height: 600px;
+    padding-top: 250px;
+}
+
+/*Red box*/
+
+.articleR{
+    background: #E31D2C;
+    margin:20px;
+    width: 50%;
+    height: 600px;
+    padding-top: 250px
+}
+
+/*Text in black box*/
+
+.articleL, .hL{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+/*Stylized fonts in black box*/
+
+.articleL, .pL{
+    font-size: 16px;
+    font-weight: lighter;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*Text in red box*/
+
+.articleR, .hR{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+}  
+
+/*Stylized fonts in red box*/
+
+.articleR, .pR{
+    font-size: 16px;
+    font-weight: lighter;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*paragraph left inside box*/
+
+.pL{
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+/*paragraph right inside box*/
+
+.pR{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*Line under heading, red box*/
+
+.hR{
+    text-decoration:underline;
+    text-decoration-color: #FFFFFF;
+    text-underline-offset: 40%;
+}
+
+/*button inside black box*/
+
+.button4{
+    background-color: #000000;
+    border: 3px solid white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+/*button inside red box*/
+
+.button5{
+    background-color: #E31D2C;
+    border: 3px solid white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    display: inline-block;
+    
+}
+
+.button5 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*Section 3 with heading3 and 3 images*/
+
+.section3{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 0px 15px;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+/*Image icons delivery*/
+
+.justeat{
+    width: 10%;
+}
+
+.deliveroo{
+    width: 10%;
+}
+
+.ubereats{
+    width: 10%;
+}
+
+/*Fotter with container and unordered list*/
+
+.container{
+	margin:auto;
+    padding:0 15px;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: -70px;
+}
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color: #000000;
+    padding: 100px 0 20px;
+}
+
+h4{
+    font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 55px;
+	font-weight: 400;
+    padding-bottom: 80px;
+    padding-left: 100px;
+}
+
+.line2{
+    margin-bottom: 80px;
+}
+
+/*Footer column and effects*/
+
+.footer-col{
+    width: 20%;
+    font-size: 16px; 
+    padding:0 15px;
+}
+
+.footer-col ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color:#bbbbbb;
+    padding-left:8px;
+}
+
+/*social media icons and hover effects*/
+
+.social-links {
+    display:inline-block;
+    height: 40px;
+    padding-top: 30px;
+    width: 24%;
+}
+
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #000000;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+    border: 1px solid #ffffff;
+}
+
+.social-links a:hover{
+    color:#24262b;
+    background-color: #ffffff;
+}
+
+/*Footer column 2*/
+
+.footer-col2{
+    font-size: 15px;
+    padding: 0 25px;
+    float:right;
+    justify-content: space-between;
+}
+
+.footer-col2 ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+    
+
+.footer-col2 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+/*KFC image logo*/
+
+.kfc{
+    margin-top: -80px;
+    padding-left: 15px;
+}
+
